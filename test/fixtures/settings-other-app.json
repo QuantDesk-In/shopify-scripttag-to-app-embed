@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "sections": {},
+    "content_for_index": [],
+    "blocks": {
+      "1588236702932918712": {
+        "type": "shopify:\/\/apps\/sticky-cart-pro\/blocks\/app-embed\/d3f1a6b2-08c4-4e5a-b7d9-2a6e1c9f0b84",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "presets": {
+    "Default": {}
+  }
+}

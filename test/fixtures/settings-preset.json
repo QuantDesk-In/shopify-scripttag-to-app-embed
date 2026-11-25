@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": "Dawn",
+  "presets": {
+    "Dawn": {
+      "sections": {},
+      "content_for_index": [],
+      "blocks": {
+        "4207964911486483523": {
+          "type": "shopify:\/\/apps\/example-widget\/blocks\/app-embed\/0b9a3c2e-5d41-4f7a-9e2b-7c1d8f6a4e30",
+          "disabled": false,
+          "settings": {}
+        }
+      }
+    }
+  }
+}
