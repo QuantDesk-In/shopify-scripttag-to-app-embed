@@ -8,3 +8,5 @@ export {
   stripJsonComments,
 } from "./settings-data.js";
 export type { EmbedBlock, EmbedMatch, EmbedState } from "./settings-data.js";
+export { checkAppEmbed, MAIN_THEME_SETTINGS_QUERY } from "./embed-status.js";
+export type { CheckOptions, EmbedCheck, ThemeRef } from "./embed-status.js";
