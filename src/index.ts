@@ -16,3 +16,5 @@ export { deleteScriptTag, listScriptTags, SCRIPT_TAG_DELETE_MUTATION, SCRIPT_TAG
 export type { ScriptTag } from "./script-tags.js";
 export { removeScriptTagsIfEmbedActive } from "./migrate.js";
 export type { MigrateOptions, MigrationResult } from "./migrate.js";
+export { recheckAfterThemePublish } from "./theme-publish.js";
+export type { RecheckOptions, RecheckResult } from "./theme-publish.js";
