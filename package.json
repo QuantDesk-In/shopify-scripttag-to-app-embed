@@ -1,0 +1,43 @@
+{
+  "name": "shopify-scripttag-to-app-embed",
+  "version": "0.1.0",
+  "description": "Move a Shopify app's storefront script from a ScriptTag to a theme app embed: confirm the embed is on, then delete the tag.",
+  "license": "MIT",
+  "author": "Quantdesk Pvt Ltd",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "shopify",
+    "shopify-app",
+    "scripttag",
+    "app-embed",
+    "theme-app-extension",
+    "react-router"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}
