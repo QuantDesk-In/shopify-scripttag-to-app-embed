@@ -1,0 +1,17 @@
+<div id="example-widget-root" data-accent="{{ block.settings.accent_color }}"></div>
+
+{% schema %}
+{
+  "name": "Example widget",
+  "target": "body",
+  "javascript": "loader.js",
+  "settings": [
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent color",
+      "default": "#1a73e8"
+    }
+  ]
+}
+{% endschema %}

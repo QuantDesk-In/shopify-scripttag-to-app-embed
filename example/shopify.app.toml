@@ -1,0 +1,13 @@
+# Only the parts that matter for this migration. Merge into your own file.
+
+[access_scopes]
+# read_themes: read config/settings_data.json and receive themes/publish.
+# write_script_tags: delete script tags (it also grants read).
+scopes = "read_themes,write_script_tags"
+
+[webhooks]
+api_version = "2026-10"
+
+  [[webhooks.subscriptions]]
+  topics = ["themes/publish"]
+  uri = "/webhooks/themes/publish"
