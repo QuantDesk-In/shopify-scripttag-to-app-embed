@@ -8,6 +8,8 @@ scopes = "read_themes,write_script_tags"
 [webhooks]
 api_version = "2026-10"
 
+  # A relative uri is resolved against application_url. Set that to your app's own URL
+  # first; deploy rejects the subscription while it is still the CLI default.
   [[webhooks.subscriptions]]
   topics = ["themes/publish"]
   uri = "/webhooks/themes/publish"

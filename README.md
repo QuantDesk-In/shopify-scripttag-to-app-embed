@@ -112,7 +112,7 @@ Shopify stores an enabled embed in `settings_data.json` as:
 
 The entry appears the first time the merchant turns the embed on. Turning it off later sets `disabled: true` and keeps the entry. The library treats the embed as on if a matching entry exists without `disabled: true`.
 
-`blockHandle` is the Liquid filename without `.liquid`. `appHandle` is optional, but set it: another app can use the same block filename. To find it, turn the embed on in a dev store and read the `type` in that theme's `config/settings_data.json`.
+`blockHandle` is the Liquid filename without `.liquid`. `appHandle` is optional, but set it: another app can use the same block filename. To find it, turn the embed on in a dev store and read the `type` in that theme's `config/settings_data.json`. It can differ from the handle in your app's admin URL (`/apps/<handle>`). Use the one from the `type`, or the embed will never match.
 
 The file starts with a `/* ... */` comment that Shopify adds, so it is not plain JSON. The parser strips comments outside strings. If `current` is a preset name instead of an object, it reads that preset.
 
